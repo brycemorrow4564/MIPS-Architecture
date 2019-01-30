@@ -1,0 +1,8 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+C:/Users/Bryce/Lab2a/Lab2a.sim/sim_2/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+C:/Users/Bryce/Lab2a/Lab2a.srcs/sim_2/new/adder4bit_test.sv,1548293821,systemVerilog,,,,adder4bit_test,,,,,,,,
+C:/Users/Bryce/Lab2a/Lab2a.srcs/sources_1/imports/new/fulladder.sv,1548292127,systemVerilog,,C:/Users/Bryce/Lab2a/Lab2a.srcs/sim_2/new/adder4bit_test.sv,,fulladder,,,,,,,,
+C:/Users/Bryce/Lab2a/Lab2a.srcs/sources_1/new/adder4bit.sv,1548293616,systemVerilog,,C:/Users/Bryce/Lab2a/Lab2a.srcs/sources_1/imports/new/fulladder.sv,,adder4bit,,,,,,,,

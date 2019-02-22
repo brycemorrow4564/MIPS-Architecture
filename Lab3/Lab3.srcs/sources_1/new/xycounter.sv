@@ -30,10 +30,12 @@ module xycounter #(parameter width=2, height=2)(
     always_ff @(posedge clock) 
     begin
         x <=    !enable ? x :               
-                x < width - 1 ? x + 1 : 0;
+                x < width - 1 ? x + 1 : 
+                0;
         y <=    !enable ? y : 
                 x < width - 1 ? y : 
-                y < height - 1 ? y + 1 : 0; 
+                y < height - 1 ? y + 1 : 
+                0; 
     end 
     
     

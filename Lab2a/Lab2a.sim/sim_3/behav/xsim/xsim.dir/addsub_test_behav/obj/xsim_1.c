@@ -10,7 +10,9 @@
 /*  \___\/\___\                                                       */
 /**********************************************************************/
 
-
+#if defined(_WIN32)
+ #include "stdio.h"
+#endif
 #include "iki.h"
 #include <string.h>
 #include <math.h>
@@ -32,7 +34,9 @@
 /*  \___\/\___\                                                       */
 /**********************************************************************/
 
-
+#if defined(_WIN32)
+ #include "stdio.h"
+#endif
 #include "iki.h"
 #include <string.h>
 #include <math.h>
@@ -46,31 +50,28 @@ typedef void (*funcp)(char *, char *);
 extern int main(int, char**);
 extern void execute_14(char*, char *);
 extern void execute_15(char*, char *);
-extern void execute_61(char*, char *);
-extern void execute_62(char*, char *);
-extern void execute_63(char*, char *);
-extern void execute_64(char*, char *);
+extern void execute_37(char*, char *);
+extern void execute_38(char*, char *);
+extern void execute_39(char*, char *);
+extern void execute_40(char*, char *);
 extern void execute_20(char*, char *);
 extern void execute_21(char*, char *);
 extern void execute_22(char*, char *);
-extern void execute_23(char*, char *);
-extern void execute_24(char*, char *);
-extern void execute_25(char*, char *);
 extern void execute_17(char*, char *);
 extern void execute_18(char*, char *);
 extern void execute_19(char*, char *);
-extern void execute_65(char*, char *);
-extern void execute_66(char*, char *);
-extern void execute_67(char*, char *);
-extern void execute_68(char*, char *);
-extern void execute_69(char*, char *);
+extern void execute_41(char*, char *);
+extern void execute_42(char*, char *);
+extern void execute_43(char*, char *);
+extern void execute_44(char*, char *);
+extern void execute_45(char*, char *);
 extern void vlog_transfunc_eventcallback(char*, char*, unsigned, unsigned, unsigned, char *);
-funcp funcTab[21] = {(funcp)execute_14, (funcp)execute_15, (funcp)execute_61, (funcp)execute_62, (funcp)execute_63, (funcp)execute_64, (funcp)execute_20, (funcp)execute_21, (funcp)execute_22, (funcp)execute_23, (funcp)execute_24, (funcp)execute_25, (funcp)execute_17, (funcp)execute_18, (funcp)execute_19, (funcp)execute_65, (funcp)execute_66, (funcp)execute_67, (funcp)execute_68, (funcp)execute_69, (funcp)vlog_transfunc_eventcallback};
-const int NumRelocateId= 21;
+funcp funcTab[18] = {(funcp)execute_14, (funcp)execute_15, (funcp)execute_37, (funcp)execute_38, (funcp)execute_39, (funcp)execute_40, (funcp)execute_20, (funcp)execute_21, (funcp)execute_22, (funcp)execute_17, (funcp)execute_18, (funcp)execute_19, (funcp)execute_41, (funcp)execute_42, (funcp)execute_43, (funcp)execute_44, (funcp)execute_45, (funcp)vlog_transfunc_eventcallback};
+const int NumRelocateId= 18;
 
 void relocate(char *dp)
 {
-	iki_relocate(dp, "xsim.dir/addsub_test_behav/xsim.reloc",  (void **)funcTab, 21);
+	iki_relocate(dp, "xsim.dir/addsub_test_behav/xsim.reloc",  (void **)funcTab, 18);
 
 	/*Populate the transaction function pointer field in the whole net structure */
 }
@@ -98,7 +99,9 @@ void sensitize(char *);
 void simulate(char *);
 
 extern SYSTEMCLIB_IMP_DLLSPEC void local_register_implicit_channel(int, char*);
-extern void implicit_HDL_SCinstatiate();
+extern void implicit_HDL_SCinstantiate();
+
+extern void implicit_HDL_SCcleanup();
 
 extern SYSTEMCLIB_IMP_DLLSPEC int xsim_argc_copy ;
 extern SYSTEMCLIB_IMP_DLLSPEC char** xsim_argv_copy ;

@@ -1,14 +1,14 @@
 0.6
-2018.3
-Dec  7 2018
-00:33:28
-C:/Users/Bryce/Lab2a/Lab2a.sim/sim_5/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
-C:/Users/Bryce/Lab2a/Lab2a.srcs/sim_4/new/logical.sv,1548650770,systemVerilog,,C:/Users/Bryce/Lab2a/Lab2a.srcs/sim_5/new/shifter.sv,,logical,,,,,,,,
-C:/Users/Bryce/Lab2a/Lab2a.srcs/sim_5/new/Lab3_Part4_test.sv,1548746180,systemVerilog,,,,Lab3_Part4_test_8bit,,,,,,,,
-,,,,,,Lab3_Part4_test_32bit,,,,,,,,
-C:/Users/Bryce/Lab2a/Lab2a.srcs/sim_5/new/shifter.sv,1548651278,systemVerilog,,C:/Users/Bryce/Lab2a/Lab2a.srcs/sim_5/new/Lab3_Part4_test_32bit.sv,,shifter,,,,,,,,
-C:/Users/Bryce/Lab2a/Lab2a.srcs/sources_1/imports/new/fulladder.sv,1548747305,systemVerilog,,C:/Users/Bryce/Lab2a/Lab2a.srcs/sim_4/new/logical.sv,,fulladder,,,,,,,,
-C:/Users/Bryce/Lab2a/Lab2a.srcs/sources_1/new/ALU.sv,1548747997,systemVerilog,,C:/Users/Bryce/Lab2a/Lab2a.srcs/sources_1/new/adder.sv,,ALU,,,,,,,,
-C:/Users/Bryce/Lab2a/Lab2a.srcs/sources_1/new/adder.sv,1548747717,systemVerilog,,C:/Users/Bryce/Lab2a/Lab2a.srcs/sources_1/new/addsub.sv,,adder,,,,,,,,
-C:/Users/Bryce/Lab2a/Lab2a.srcs/sources_1/new/addsub.sv,1548649322,systemVerilog,,C:/Users/Bryce/Lab2a/Lab2a.srcs/sources_1/new/comparator.sv,,addsub,,,,,,,,
-C:/Users/Bryce/Lab2a/Lab2a.srcs/sources_1/new/comparator.sv,1548742859,systemVerilog,,C:/Users/Bryce/Lab2a/Lab2a.srcs/sources_1/imports/new/fulladder.sv,,comparator,,,,,,,,
+2019.2
+Nov  6 2019
+21:57:16
+C:/Users/Bryce/Desktop/COMP541/Lab2a/Lab2a.sim/sim_5/behav/xsim/glbl.v,1582140254,verilog,,,,glbl,,,,,,,,
+C:/Users/Bryce/Desktop/COMP541/Lab2a/Lab2a.srcs/sim_4/new/logical.sv,1582140254,systemVerilog,,C:/Users/Bryce/Desktop/COMP541/Lab2a/Lab2a.srcs/sim_5/new/shifter.sv,,logical,,,,,,,,
+C:/Users/Bryce/Desktop/COMP541/Lab2a/Lab2a.srcs/sim_5/new/Lab3_Part4_test.sv,1582140254,systemVerilog,,,,Lab3_Part4_test_8bit,,,,,,,,
+C:/Users/Bryce/Desktop/COMP541/Lab2a/Lab2a.srcs/sim_5/new/Lab3_Part4_test_32bit.sv,1582140254,systemVerilog,,,,Lab3_Part4_test_32bit,,,,,,,,
+C:/Users/Bryce/Desktop/COMP541/Lab2a/Lab2a.srcs/sim_5/new/shifter.sv,1582140254,systemVerilog,,C:/Users/Bryce/Desktop/COMP541/Lab2a/Lab2a.srcs/sim_5/new/Lab3_Part4_test_32bit.sv,,shifter,,,,,,,,
+C:/Users/Bryce/Desktop/COMP541/Lab2a/Lab2a.srcs/sources_1/imports/new/fulladder.sv,1582140254,systemVerilog,,C:/Users/Bryce/Desktop/COMP541/Lab2a/Lab2a.srcs/sim_4/new/logical.sv,,fulladder,,,,,,,,
+C:/Users/Bryce/Desktop/COMP541/Lab2a/Lab2a.srcs/sources_1/new/ALU.sv,1582140254,systemVerilog,,C:/Users/Bryce/Desktop/COMP541/Lab2a/Lab2a.srcs/sources_1/new/adder.sv,,ALU,,,,,,,,
+C:/Users/Bryce/Desktop/COMP541/Lab2a/Lab2a.srcs/sources_1/new/adder.sv,1582140254,systemVerilog,,C:/Users/Bryce/Desktop/COMP541/Lab2a/Lab2a.srcs/sources_1/new/addsub.sv,,adder,,,,,,,,
+C:/Users/Bryce/Desktop/COMP541/Lab2a/Lab2a.srcs/sources_1/new/addsub.sv,1582140254,systemVerilog,,C:/Users/Bryce/Desktop/COMP541/Lab2a/Lab2a.srcs/sources_1/new/comparator.sv,,addsub,,,,,,,,
+C:/Users/Bryce/Desktop/COMP541/Lab2a/Lab2a.srcs/sources_1/new/comparator.sv,1582140254,systemVerilog,,C:/Users/Bryce/Desktop/COMP541/Lab2a/Lab2a.srcs/sources_1/imports/new/fulladder.sv,,comparator,,,,,,,,

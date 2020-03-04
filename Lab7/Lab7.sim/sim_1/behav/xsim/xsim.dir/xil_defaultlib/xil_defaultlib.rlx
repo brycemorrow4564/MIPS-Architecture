@@ -1,0 +1,15 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+C:/Users/Bryce/Desktop/COMP541/Lab7/Lab7.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
+C:/Users/Bryce/Desktop/COMP541/Lab7/Lab7.srcs/sources_1/imports/Lab2a.srcs/sim_4/new/logical.sv,1582140254,systemVerilog,,C:/Users/Bryce/Desktop/COMP541/Lab7/Lab7.srcs/sources_1/new/register_file.sv,,logical,,,,,,,,
+C:/Users/Bryce/Desktop/COMP541/Lab7/Lab7.srcs/sources_1/imports/Lab2a.srcs/sim_5/new/shifter.sv,1582140254,systemVerilog,,C:/Users/Bryce/Desktop/COMP541/Lab7/Lab7.srcs/sources_1/new/datapath_test.sv,,shifter,,,,,,,,
+C:/Users/Bryce/Desktop/COMP541/Lab7/Lab7.srcs/sources_1/imports/Lab2a.srcs/sources_1/imports/new/fulladder.sv,1582140254,systemVerilog,,C:/Users/Bryce/Desktop/COMP541/Lab7/Lab7.srcs/sources_1/imports/Lab2a.srcs/sim_4/new/logical.sv,,fulladder,,,,,,,,
+C:/Users/Bryce/Desktop/COMP541/Lab7/Lab7.srcs/sources_1/imports/Lab2a.srcs/sources_1/new/adder.sv,1582140254,systemVerilog,,C:/Users/Bryce/Desktop/COMP541/Lab7/Lab7.srcs/sources_1/imports/Lab2a.srcs/sources_1/new/addsub.sv,,adder,,,,,,,,
+C:/Users/Bryce/Desktop/COMP541/Lab7/Lab7.srcs/sources_1/imports/Lab2a.srcs/sources_1/new/addsub.sv,1582140254,systemVerilog,,C:/Users/Bryce/Desktop/COMP541/Lab7/Lab7.srcs/sources_1/imports/Lab2a.srcs/sources_1/new/comparator.sv,,addsub,,,,,,,,
+C:/Users/Bryce/Desktop/COMP541/Lab7/Lab7.srcs/sources_1/imports/Lab2a.srcs/sources_1/new/comparator.sv,1582140254,systemVerilog,,C:/Users/Bryce/Desktop/COMP541/Lab7/Lab7.srcs/sources_1/new/datapath.sv,,comparator,,,,,,,,
+C:/Users/Bryce/Desktop/COMP541/Lab7/Lab7.srcs/sources_1/imports/new/ALU.sv,1582140254,systemVerilog,,C:/Users/Bryce/Desktop/COMP541/Lab7/Lab7.srcs/sources_1/imports/Lab2a.srcs/sources_1/new/adder.sv,,ALU,,,,,,,,
+C:/Users/Bryce/Desktop/COMP541/Lab7/Lab7.srcs/sources_1/new/datapath.sv,1582998962,systemVerilog,,C:/Users/Bryce/Desktop/COMP541/Lab7/Lab7.srcs/sources_1/imports/Lab2a.srcs/sources_1/imports/new/fulladder.sv,,datapath,,,,,,,,
+C:/Users/Bryce/Desktop/COMP541/Lab7/Lab7.srcs/sources_1/new/datapath_test.sv,1582825022,systemVerilog,,,,datapath_test;selfcheck,,,,,,,,
+C:/Users/Bryce/Desktop/COMP541/Lab7/Lab7.srcs/sources_1/new/register_file.sv,1582826745,systemVerilog,,C:/Users/Bryce/Desktop/COMP541/Lab7/Lab7.srcs/sources_1/imports/Lab2a.srcs/sim_5/new/shifter.sv,,register_file,,,,,,,,

@@ -1,0 +1,29 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  --include "../../../../FinalProject.srcs/sources_1/imports/new" \
+"../../../../FinalProject.srcs/sources_1/imports/sources_1/imports/new/ALU.sv" \
+"../../../../FinalProject.srcs/sources_1/imports/sources_1/imports/Lab2a.srcs/sources_1/new/adder.sv" \
+"../../../../FinalProject.srcs/sources_1/imports/sources_1/imports/Lab2a.srcs/sources_1/new/addsub.sv" \
+"../../../../FinalProject.srcs/sources_1/imports/COMP541/Lab7/Lab7.srcs/sources_1/new/bitmapmem.sv" \
+"../../../../FinalProject.srcs/sources_1/imports/sources_1/imports/Lab2a.srcs/sources_1/new/comparator.sv" \
+"../../../../FinalProject.srcs/sources_1/new/controller.sv" \
+"../../../../FinalProject.srcs/sources_1/new/datamem.sv" \
+"../../../../FinalProject.srcs/sources_1/new/datapath.sv" \
+"../../../../FinalProject.srcs/sources_1/imports/sources_1/imports/Lab2a.srcs/sources_1/imports/new/fulladder.sv" \
+"../../../../FinalProject.srcs/sources_1/imports/sources_1/imports/Lab2a.srcs/sim_4/new/logical.sv" \
+"../../../../FinalProject.srcs/sources_1/new/memIO.sv" \
+"../../../../FinalProject.srcs/sources_1/new/mips.sv" \
+"../../../../FinalProject.srcs/sources_1/imports/sources_1/new/register_file.sv" \
+"../../../../FinalProject.srcs/sources_1/imports/sources_1/new/rom.sv" \
+"../../../../FinalProject.srcs/sources_1/imports/new/screenmem.sv" \
+"../../../../FinalProject.srcs/sources_1/imports/sources_1/imports/Lab2a.srcs/sim_5/new/shifter.sv" \
+"../../../../FinalProject.srcs/sources_1/new/top.sv" \
+"../../../../FinalProject.srcs/sources_1/imports/new/vgadisplaydriver.sv" \
+"../../../../FinalProject.srcs/sources_1/imports/new/vgatimer.sv" \
+"../../../../FinalProject.srcs/sources_1/imports/new/xycounter.sv" \
+"../../../../FinalProject.srcs/sources_1/new/tester_screentest.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

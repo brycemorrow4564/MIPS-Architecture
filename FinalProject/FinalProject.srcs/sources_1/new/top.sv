@@ -15,21 +15,21 @@
 
 
 module top #(
-    parameter Dbits=32,                                 // word size for the processor
-    parameter Nreg=32,                                  // number of registers
+    parameter Dbits=32,                                     // word size for the processor
+    parameter Nreg=32,                                      // number of registers
 
-    parameter imem_size=256,                            // imem size, must be >= # instructions in program
-//    parameter imem_init="imem_screentest_nopause.mem",  // use this line for simulation/testing
-    parameter imem_init="imem_full-IO-test.mem",          // use this line for synthesis/board deployment
+    parameter imem_size=478,                                // imem size, must be >= # instructions in program
+    parameter imem_init="final_imem.mem",                   // use this line for synthesis/board deployment
 
-    parameter dmem_size=64,                             // dmem size, must be >= # words in .data of program + size of stack
-    parameter dmem_init="dmem_full-IO-test.mem",          // file to initialize data memory
+    //parameter dmem_size=1024,                               // dmem size, must be >= # words in .data of program + size of stack
+    parameter dmem_size=1200,                               // dmem size, must be >= # words in .data of program + size of stack
+    parameter dmem_init="final_dmem.mem",                   // file to initialize data memory
 
-    parameter smem_size=1200,                           // smem size, is 1200 for our chosen screen grid of 40x30
-    parameter smem_init="smem_screentest.mem", 	        // file to initialize screen memory
+    parameter smem_size=1200,                               // smem size, is 1200 for our chosen screen grid of 40x30
+    parameter smem_init="final_smem.mem", 	                // file to initialize screen memory
 
-    parameter bmem_size=1024,                           // bmem size, 256 * # of characters.  For 4 chars, = 1024.
-    parameter bmem_init="bmem_screentest.mem" 	        // file to initialize bitmap memory
+    parameter bmem_size=768,                                // bmem size, 256 * # of characters.  For 4 chars, = 1024.
+    parameter bmem_init="final_bmem.mem" 	                // file to initialize bitmap memory
 )(
     // System clock + reset signal 
     input wire clk, reset,

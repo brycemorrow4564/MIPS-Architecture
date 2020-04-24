@@ -17,8 +17,6 @@ proc create_report { reportName command } {
     send_msg_id runtcl-5 warning "$msg"
   }
 }
-set_param chipscope.maxJobs 2
-set_param xicom.use_bs_reader 1
 create_project -in_memory -part xc7a100tcsg324-1
 
 set_param project.singleFileAddWarning.threshold 0
@@ -41,6 +39,10 @@ read_mem {
   C:/Users/Bryce/Desktop/COMP541/FinalProject/FinalProject.srcs/sources_1/new/dmem_etchasketch.mem
   C:/Users/Bryce/Desktop/COMP541/FinalProject/FinalProject.srcs/sources_1/new/imem_full-IO-test.mem
   C:/Users/Bryce/Desktop/COMP541/FinalProject/FinalProject.srcs/sources_1/new/dmem_full-IO-test.mem
+  C:/Users/Bryce/Desktop/COMP541/FinalProject/FinalProject.srcs/sources_1/imports/mems/final_bmem.mem
+  C:/Users/Bryce/Desktop/COMP541/FinalProject/FinalProject.srcs/sources_1/imports/mems/final_dmem.mem
+  C:/Users/Bryce/Desktop/COMP541/FinalProject/FinalProject.srcs/sources_1/imports/mems/final_smem.mem
+  C:/Users/Bryce/Desktop/COMP541/FinalProject/FinalProject.srcs/sources_1/imports/mems/final_imem.mem
 }
 read_verilog -library xil_defaultlib -sv {
   C:/Users/Bryce/Desktop/COMP541/FinalProject/FinalProject.srcs/sources_1/imports/sources_1/imports/new/ALU.sv

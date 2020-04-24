@@ -1,7 +1,7 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
-| Date             : Wed Apr 15 13:42:15 2020
+| Date             : Thu Apr 23 20:42:14 2020
 | Host             : DESKTOP-LHKOAFS running 64-bit major release  (build 9200)
 | Command          : report_power -file top_power_routed.rpt -pb top_power_summary_routed.pb -rpx top_power_routed.rpx
 | Design           : top
@@ -30,10 +30,10 @@ Table of Contents
 ----------
 
 +--------------------------+--------------+
-| Total On-Chip Power (W)  | 0.219        |
+| Total On-Chip Power (W)  | 0.220        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
-| Dynamic (W)              | 0.122        |
+| Dynamic (W)              | 0.123        |
 | Device Static (W)        | 0.097        |
 | Effective TJA (C/W)      | 4.6          |
 | Max Ambient (C)          | 84.0         |
@@ -52,20 +52,20 @@ Table of Contents
 +--------------------------+-----------+----------+-----------+-----------------+
 | On-Chip                  | Power (W) | Used     | Available | Utilization (%) |
 +--------------------------+-----------+----------+-----------+-----------------+
-| Clocks                   |     0.003 |        6 |       --- |             --- |
-| Slice Logic              |     0.003 |     2374 |       --- |             --- |
-|   LUT as Logic           |     0.002 |     1086 |     63400 |            1.71 |
+| Clocks                   |     0.004 |        6 |       --- |             --- |
+| Slice Logic              |     0.003 |     2594 |       --- |             --- |
+|   LUT as Logic           |     0.002 |     1238 |     63400 |            1.95 |
 |   LUT as Distributed RAM |    <0.001 |      230 |     19000 |            1.21 |
 |   CARRY4                 |    <0.001 |       86 |     15850 |            0.54 |
 |   Register               |    <0.001 |      473 |    126800 |            0.37 |
-|   F7/F8 Muxes            |    <0.001 |      142 |     63400 |            0.22 |
+|   F7/F8 Muxes            |    <0.001 |      205 |     63400 |            0.32 |
 |   Others                 |     0.000 |       30 |       --- |             --- |
 |   LUT as Shift Register  |     0.000 |        6 |     19000 |            0.03 |
-| Signals                  |     0.003 |     1791 |       --- |             --- |
+| Signals                  |     0.003 |     1902 |       --- |             --- |
 | MMCM                     |     0.106 |        1 |         6 |           16.67 |
 | I/O                      |     0.007 |       56 |       210 |           26.67 |
 | Static Power             |     0.097 |          |           |                 |
-| Total                    |     0.219 |          |           |                 |
+| Total                    |     0.220 |          |           |                 |
 +--------------------------+-----------+----------+-----------+-----------------+
 
 
@@ -75,7 +75,7 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
 +-----------+-------------+-----------+-------------+------------+
-| Vccint    |       1.000 |     0.025 |       0.009 |      0.015 |
+| Vccint    |       1.000 |     0.026 |       0.010 |      0.015 |
 | Vccaux    |       1.800 |     0.077 |       0.059 |      0.018 |
 | Vcco33    |       3.300 |     0.006 |       0.002 |      0.004 |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |
@@ -147,10 +147,10 @@ Table of Contents
 +------------------------+-----------+
 | Name                   | Power (W) |
 +------------------------+-----------+
-| top                    |     0.122 |
+| top                    |     0.123 |
 |   accel                |     0.002 |
 |     accel              |     0.002 |
-|       ADXL_Control     |     0.001 |
+|       ADXL_Control     |     0.002 |
 |   clkdv                |     0.107 |
 |   mips                 |     0.004 |
 |     dp                 |     0.004 |

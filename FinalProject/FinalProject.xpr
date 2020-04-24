@@ -415,6 +415,38 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
+      <File Path="$PSRCDIR/sources_1/imports/mems/final_bmem.mem">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../mems/final_bmem.mem"/>
+          <Attr Name="ImportTime" Val="1587600449"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/mems/final_dmem.mem">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../mems/final_dmem.mem"/>
+          <Attr Name="ImportTime" Val="1587697255"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/mems/final_smem.mem">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../mems/final_smem.mem"/>
+          <Attr Name="ImportTime" Val="1587601828"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/mems/final_imem.mem">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../mems/final_imem.mem"/>
+          <Attr Name="ImportTime" Val="1587699099"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
       <Config>
         <Option Name="DesignMode" Val="RTL"/>
         <Option Name="TopModule" Val="top"/>
